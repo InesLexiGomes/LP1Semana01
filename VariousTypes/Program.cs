@@ -27,6 +27,18 @@ namespace VariousTypes
             Console.WriteLine($"'\\u2640' is the value of {f}.");
             Console.WriteLine($"'\\u2020' is the value of {c}.");
             Console.WriteLine($"'\\u2122' is the value of {t}.");
+
+            //Float values
+            double d = 150492.23212;
+            double d_spaced = 150_492.232_12;
+            float pi = 3.1415f;
+            decimal dec = 112.2312341M;
+
+            //Writing float values to console
+            Console.WriteLine($"{d} is a double.");
+            Console.WriteLine($"{d_spaced} spacing doesn't affect writing.");
+            Console.WriteLine($"{pi} is a float.");
+            Console.WriteLine($"{dec} is a decimal.");
         }
     }
 }
