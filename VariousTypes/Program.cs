@@ -39,6 +39,14 @@ namespace VariousTypes
             Console.WriteLine($"{d_spaced} spacing doesn't affect writing.");
             Console.WriteLine($"{pi} is a float.");
             Console.WriteLine($"{dec} is a decimal.");
+
+            //Bool values
+            bool yippee = true;
+            bool no = false;
+
+            //Writing bool values
+            Console.WriteLine($"{yippee} is a bool.");
+            Console.WriteLine($"{no} is a bool.");
         }
     }
 }
